@@ -297,9 +297,9 @@ footer{
   background: url("images/footer_og.svg") no-repeat center center;
   background-size: cover;
 }
-::selection {
+.item .block2 .block3::selection {
   background-color: #F74545;
-  color: #C540E5;
+  color: white;
 }
 .block4::selection {
   background-color: #8ECD28; 
@@ -309,3 +309,4 @@ footer{
   background-color: #8ECD28; 
   color: #F58A18;
 }
+
