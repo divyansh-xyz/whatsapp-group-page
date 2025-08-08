@@ -295,5 +295,17 @@ footer{
   height: 90px;
   padding: 10px;
   background: url("images/footer_og.svg") no-repeat center center;
-  background-size: cover; 
+  background-size: cover;
+}
+::selection {
+  background-color: #F74545;
+  color: #C540E5;
+}
+.block4::selection {
+  background-color: #8ECD28; 
+  color: #F58A18;
+}
+.btn_cover::selection {
+  background-color: #8ECD28; 
+  color: #F58A18;
 }
