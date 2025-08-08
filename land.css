@@ -297,16 +297,27 @@ footer{
   background: url("images/footer_og.svg") no-repeat center center;
   background-size: cover;
 }
-.item .block2 .block3::selection {
+.item::selection {
+  background-color: #F74545;
+  color: white;
+}
+.block2::selection {
+  background-color: #F74545;
+  color: white;
+}
+.block3::selection {
   background-color: #F74545;
   color: white;
 }
 .block4::selection {
   background-color: #8ECD28; 
-  color: #F58A18;
+  color: white;
 }
 .btn_cover::selection {
   background-color: #8ECD28; 
-  color: #F58A18;
+  color: white;
 }
-
+footer::selection {
+  background-color: #F74545;
+  color: white;
+}
